@@ -17,6 +17,7 @@ import javax.swing.border.EtchedBorder;
 import javax.swing.border.LineBorder;
 
 import com.ea.tool.ui.toolbar.ToolBarContainer;
+import javax.swing.JLabel;
 
 public class MainContainer extends JFrame {
 
@@ -95,6 +96,9 @@ public class MainContainer extends JFrame {
 		statusPanel.setBorder(new EtchedBorder(EtchedBorder.LOWERED, null, null));
 		statusPanel.setPreferredSize(new Dimension(1145, 30));
 		contentPane.add(statusPanel, BorderLayout.SOUTH);
+		
+		JLabel lblNewLabel = new JLabel("iEATool");
+		statusPanel.add(lblNewLabel);
 	}
 	
 	public JDesktopPane getDesktopContainerPanel() {
