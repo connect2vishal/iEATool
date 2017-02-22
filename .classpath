@@ -4,10 +4,24 @@
 	<classpathentry kind="src" path="resources"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/MSSQLServer 4.2"/>
-	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.USER_LIBRARY/SOA Model Distribution 1.4.1.4"/>
-	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.USER_LIBRARY/SOA Model Core 1.4.1.4"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Groovy Libs 2.0.4"/>
-	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.USER_LIBRARY/Apache Commons"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/SOA Support Libs"/>
+	<classpathentry kind="lib" path="libs/antlr-2.7.7.jar"/>
+	<classpathentry kind="lib" path="libs/asm-4.0.jar"/>
+	<classpathentry kind="lib" path="libs/asm-analysis-4.0.jar"/>
+	<classpathentry kind="lib" path="libs/asm-commons-4.0.jar"/>
+	<classpathentry kind="lib" path="libs/asm-tree-4.0.jar"/>
+	<classpathentry kind="lib" path="libs/asm-util-4.0.jar"/>
+	<classpathentry kind="lib" path="libs/commons-cli-1.2.jar"/>
+	<classpathentry kind="lib" path="libs/commons-codec-1.6.jar"/>
+	<classpathentry kind="lib" path="libs/commons-io-2.5-javadoc.jar"/>
+	<classpathentry kind="lib" path="libs/commons-io-2.5.jar"/>
+	<classpathentry kind="lib" path="libs/commons-logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="libs/groovy-2.0.4.jar"/>
+	<classpathentry kind="lib" path="libs/groovy-xml-2.0.4.jar"/>
+	<classpathentry kind="lib" path="libs/httpclient-4.2.2.jar"/>
+	<classpathentry kind="lib" path="libs/httpcore-4.2.2.jar"/>
+	<classpathentry kind="lib" path="libs/log4j-1.2.17.jar"/>
+	<classpathentry kind="lib" path="libs/slf4j-api-1.7.2.jar"/>
+	<classpathentry kind="lib" path="libs/soa-model-core-1.4.1.4.jar"/>
+	<classpathentry kind="lib" path="libs/soa-model-distribution-1.4.1.4.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
